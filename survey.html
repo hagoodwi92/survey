@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -13,10 +13,10 @@
   
     <form id="form0ne">
       <div class = "form-group">
-        <label for = "name">Enter Your Name: </label>
+        <label for = "name" > Enter Your Name: </label>
         <input id="name" class="form-control" type="text">
       </div>
-      <p>What is your favorite season?</p>
+      <!-- <p>What is your favorite season?</p>
       <select class="form-control" id="season">
         <option>Spring</option>
         <option>Summer</option>
@@ -24,8 +24,38 @@
         <option>Winter</option>
       </select>
       
-
+      <div class="radio">
+        <br>
+        <p>What's your favorite type of food?</p>
+        <label>
+          <input type="radio" name="food" value="Mexican" checked>
+          Mexican
+        </label>
+        <label>
+          <input type="radio" name="food" value="Vegan" checked>
+          Vegan
+        </label>
+        <label>
+          <input type="radio" name="food" value="Traditional" checked>
+          Traditional
+        </label>
+      </div>
+      <div class="form-group">
+        <label for="born">When were you born?</label>
+        <input id="born" class="form-control" type="date">
+      </div>
+      <div class="form-group">
+      <label for="color"> What is your favorite color?</label>
+      <input id="color" class="form-control" type="color">
+      </div>-->
+      <button type="submit" class="btn btn-dark">Submit</button> 
     </form>
+    <div id="answers">
+      <p>Your name is <span class = "name" ></span><p>
+    </div>
+
+  
+    
 
   </div>
 </body>
